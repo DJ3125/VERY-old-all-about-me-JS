@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All About Dylan Ja</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+<body>
+
+<table id="practicallyeverything">
+    <tr>
+        <td id="SideBar">
+            <table id="SideBarComponents">
+                <tr>
+                <div id="menu">
+                    <h2 id="menutitle" class="SideBarHeaders"> Menu </h2>
+                        <div class="FlexBox" id="MenuButtons">
+                            <div><button type="button" id="TopButton" onclick="MoveToCertainPart('#top', 'TopButton')" class="NavButtons"> Back to Top </button></div>
+                            <div><button type="button" id="SchoolLifeButton" onclick="MoveToCertainPart('#SchoolLife','SchoolLifeButton')" class="NavButtons"> Go To School Life </button></div>
+                            <div><button type="button" id="OutsideSchoolButton" onclick="MoveToCertainPart('#OutsideSchool', 'OutsideSchoolButton')" class="NavButtons"> Go to Outside School Life </button></div>
+                            <div><button type="button" id="GardeningButton" onclick="MoveToCertainPart('#Gardening', 'GardeningButton')" class="NavButtons"> Go to Gardening </button></div>
+                            <div><button type="button" id="JPButton" onclick="MoveToCertainPart('#JPFranchise', 'JPButton')" class="NavButtons"> Go to Jurassic Park Franchise </button></div>
+                            <div><button type="button" id="VideoGamesButton" onclick="MoveToCertainPart('#VideoGames', 'VideoGamesButton')" class="NavButtons"> Go to Video Games </button></div>
+                            <div><button type="button" id="CodingButton" onclick="MoveToCertainPart('#Coding', 'CodingButton')" class="NavButtons"> Go to Coding </button></div>
+                        </div>
+                </div>
+                </tr>
+                <tr>
+                    <div id="Settings">
+                        <h2 id="SettingsTitle" class="SideBarHeaders"> Settings </h2>
+                            <div class="FlexBox" id="SettingsButtons">
+                                <div><button type="button" id="PageModeButton" onclick="DarkMode()"> Go To Light Mode </button></div>
+                            </div>
+                    </div>
+                </tr>
+            </table>
+        </td>
+<td id="content">
+    <div id="AllContent">
+
+<h1 id="top"> All About Dylan Ja </h1>
+
+<hr>
+
+<h3 id="SchoolLife" class="subheader"> School Life </h3>
+<p> I'm a student at Conant High School. I'm currently in Freshman Year. </p>
+<p> I'm going to do Coding Club to help kids learn how to code. </p>
+<p> The electives that I'm currently taking are Spanish and Computer Science.</p>
+<img src ="pictures/CHS.jpg" alt="Conant High School" id="borderthis">
+<br>
+<a href="https://adc.d211.org/Domain/10" class="links"> Conant High School </a>
+
+<hr>
+
+<h3 id="OutsideSchool" class="subheader"> Outside School </h3>
+<p> Outside of school, I play sports such as swimming and tennis. </p>
+<p> I also like to watch TV, go outside, and read. </p>
+<p> My favorite snack is fruit. I don't like candy or many desserts. </p>
+
+<hr>
+
+<h3 id="Gardening" class="subheader"> Gardening </h3>
+<p> One of my hobbies is gardening. At home, I grow many species of plants, both exotic and normal </p>
+<img src="pictures/Venus_Flytrap.jpg" alt="My Favorite Plant">
+<p> The Venus Flytrap is my favorite exotic plant.</p>
+<p> I find it so interesting how these and other plants have evolved to eat meat in order to survive. </p>
+
+<hr>
+
+<h3 id="JPFranchise" class="subheader"> Jurassic Park Franchise </h3>
+<p> I also like the Jurassic Park Franchise. </p>
+<p> My favorite move out of all 6 movies has to be the original</p>
+<img src="pictures/WhenDinosaursRuledTheEarth.jpg" alt="A Scene From Jurassic Park (1993)">
+<p> Here's my ranking of all the Jurassic Movies:</p>
+<ol>
+    <li class="lists">Jurassic Park</li>
+    <li class="lists">Jurassic World</li>
+    <li class="lists">Jurassic Park the Lost World</li>
+    <li class="lists">Jurassic World Fallen Kingdom</li>
+    <li class="lists">Jurassic World Dominion</li>
+    <li class="lists">Jurassic Park 3</li>
+</ol>
+<p> Most of the games that I play in my free time is also Jurassic World themed: </p>
+<a href="https://jurassicpark.fandom.com/wiki/Jurassic_World:_The_Game" class="links"> Jurassic World the Game</a>
+<br>
+<br>
+<a href="https://jurassic-world-alive.fandom.com/wiki/Jurassic_World_Alive_Wiki" class="links"> Jurassic World Alive</a>
+
+<hr>
+
+<h3 id="VideoGames" class="subheader"> Video Games </h3>
+<p> I also like to play video games on my XBox.</p>
+<p> Here's my top 3 favorite games:</p>
+<table id="games">
+    <tr class="gamerow">
+        <th class="gamerow"> Game </th>
+        <th class="gamerow"> Creator </th>
+        <th class="gamerow"> Year of Release </th>
+    </tr>
+    <tr class="gamerow">
+        <td class="gamerow"> Hollow Knight </td>
+        <td class="gamerow"> Team Cherry </td>
+        <td class="gamerow"> 2017 </td>
+    </tr>
+    <tr class="gamerow">
+        <td class="gamerow"> Injustice 2 </td>
+        <td class="gamerow"> NetherRealm Studios </td>
+        <td class="gamerow"> 2017 </td>
+    </tr>
+    <tr class="gamerow">
+        <td class="gamerow"> Forza Horizon 5 </td>
+        <td class="gamerow"> Playground Games </td>
+        <td class="gamerow"> 2021 </td>
+    </tr>
+</table>
+<br>
+<img src="pictures/MantisLords.webp" alt="The Mantis Lords">
+
+<hr>
+
+<h3 id="Coding" class="subheader"> Coding </h3>
+<p> One of my hobbies is coding. I've been coding for a while now, and I've made a couple of games. </p>
+<p> Try these two games I made! </p>
+<ul>
+    <li> <a href="https://studio.code.org/projects/gamelab/MVMuRYISuPpODzCB59Ei9EqHiRg90UUiVEfZegjmroE" class="links"> Falling Fruit Project </a> </li>
+    <li> <a href="https://www.tynker.com/ide/v3?type=diy&p=630bede018bfa040f531382d" class="links"> The Indominus Escape </a> </li>
+</ul>
+<img src="pictures/pixil-frame-0 (29).png" alt="MY INDOMINUS REX">
+<p> At Conant, I'm currently in a coding club that helps kids learn how to code. It's called <a href="https://adc.d211.org/Page/7203" class="links"> Comp Sci Kids</a>.
+
+<hr>
+
+</div>
+</td>
+
+</tr>
+</table>
+
+</body>
+</html>
